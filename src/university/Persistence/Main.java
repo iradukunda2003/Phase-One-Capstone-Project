@@ -5,11 +5,10 @@ import Manager.*;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
 
         static Scanner scanner = new Scanner(System.in);
         static UniversityManager manager = new UniversityManager();
-        static FileManager FileManager = new FileManager();
+        static FileManager fileManager = new FileManager();
 
         public static void main (String[]args){
 
@@ -171,4 +170,3 @@ public class Main {
                             s.getName() + " | GPA: " + s.getGPA()));
         }
     }
-}
