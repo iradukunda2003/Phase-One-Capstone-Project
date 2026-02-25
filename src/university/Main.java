@@ -8,7 +8,7 @@ public class Main {
 
     static Scanner scanner             = new Scanner(System.in);
     static UniversityManager manager   = new UniversityManager();
-    static FileManager fileManager     = new FileManager();
+    static FileManager FileManager     = new FileManager();
 
     public static void main(String[] args) {
 
