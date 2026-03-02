@@ -17,24 +17,24 @@ public class FileManager {
 
             for (Student s : manager.getStudents()) {
 
-                if (s instanceof UndergraduateStudent) {
+               if (s instanceof UndergraduateStudent) {
+                writer.write("UG," + s.getName() + ","
+                    + s.getStudentID() + ","
+                    + s.getGPA() + ","
+                    + s.getDepartment());
+                writer.newLine();
 
-                    writer.write("UG," + s.getName() + ","
-                            + s.getStudentID() + ","
-                            + s.getGPA() + ","
-                            + s.getDepartment());
-                    writer.newLine();
-
-                } else if (s instanceof GraduateStudent) {
-                    GraduateStudent grauate = (GraduateStudent) s;
-
-                    writer.write("GR," + s.getName() + ","
-                            + s.getStudentID() + ","
-                            + s.getGPA() + ","
-                            + s.getDepartment() + ","
-                            + gr.getTotalCredits());
-                    writer.newLine();
-                }
+            } else if (s instanceof GraduateStudent) {
+             GraduateStudent gr = (GraduateStudent) s;
+       
+            writer.write("GR," + s.getName() + ","
+                + s.getStudentID() + ","
+                + s.getGPA() + ","
+                + s.getDepartment() + ","
+                + gr.getTotalCredits());
+                   
+            writer.newLine();
+    }
             }
             writer.close();
             System.out.println("Students saved successfully.");
