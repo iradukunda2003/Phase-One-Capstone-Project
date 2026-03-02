@@ -1,14 +1,14 @@
 package university.app;
 
-import Domain.*;
-import Manager.*;
+import university.Domain.*;
+import university.Manager.*;
 import java.util.Scanner;
 
 public class Main {
 
     static Scanner scanner             = new Scanner(System.in);
     static UniversityManager manager   = new UniversityManager();
-    static FileManager FileManager     = new FileManager();
+    static FileManager fileManager     = new FileManager();
 
     public static void main(String[] args) {
 
