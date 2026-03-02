@@ -4,8 +4,8 @@ import university.Domain.Student;
 import university.Domain.Course;
 import university.Domain.UndergraduateStudent;
 import university.Domain.GraduateStudent;
-import university.Manager.CourseFullException;
-import university.Manager.StudentAlreadyEnrolledException;
+import university.Manager.exception.CourseFullException;
+import university.Manager.exception.StudentAlreadyEnrolledException;
 
 import java.util.ArrayList;
 import java.util.List;
