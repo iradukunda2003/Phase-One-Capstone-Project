@@ -1,4 +1,4 @@
-package Domain;
+package university.Domain;
 
 public abstract class Person {
     private String name;
