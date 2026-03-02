@@ -1,9 +1,9 @@
 package university.Manager;
 
-import Domain.Student;
-import Domain.Course;
-import Domain.UndergraduateStudent;
-import Domain.GraduateStudent;
+import university.Domain.Student;
+import university.Domain.Course;
+import university.Domain.UndergraduateStudent;
+import university.Domain.GraduateStudent;
 
 import java.util.ArrayList;
 import java.util.List;
