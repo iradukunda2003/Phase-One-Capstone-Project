@@ -1,4 +1,4 @@
-package Manager;
+package university.Manager;
 
 import Domain.Student;
 import Domain.Course;
