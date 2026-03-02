@@ -1,4 +1,4 @@
-package Domain;
+package university.Domain;
 
 import java.util.Map;
 import java.util.HashMap;
