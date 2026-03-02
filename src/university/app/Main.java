@@ -1,7 +1,7 @@
 package university.app;
 
-import Domain.*;
-import Manager.*;
+import university.Domain.*;
+import university.Manager.*;
 import java.util.Scanner;
 
 public class Main {
