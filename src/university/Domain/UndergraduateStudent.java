@@ -1,4 +1,4 @@
-package Domain;
+package university.Domain;
 
 public class UndergraduateStudent extends Student {
 
