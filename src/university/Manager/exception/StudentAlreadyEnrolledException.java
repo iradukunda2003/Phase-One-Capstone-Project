@@ -1,4 +1,4 @@
-package Manager;
+package university.Manager;
 
 public class StudentAlreadyEnrolledException extends Exception {
 
