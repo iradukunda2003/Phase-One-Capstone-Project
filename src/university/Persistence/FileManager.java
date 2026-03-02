@@ -1,7 +1,7 @@
 package university.Persistence;
 
-import Domain.*;
-import Manager.UniversityManager;
+import university.Domain.*;
+import university.Manager.UniversityManager;
 import java.io.*;
 
 public class FileManager {
