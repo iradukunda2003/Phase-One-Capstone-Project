@@ -1,4 +1,4 @@
-package Persistence;
+package university.Persistence;
 
 import Domain.*;
 import Manager.UniversityManager;
