@@ -1,4 +1,4 @@
-package Persistence;
+package university.app;
 
 import Domain.*;
 import Manager.*;
